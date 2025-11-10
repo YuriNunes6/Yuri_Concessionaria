@@ -200,12 +200,13 @@ public class Atividade {
                                 for (int i = 0; i < carros.posicaoCadastro; i++) {
                                     System.out.println("ID: " + (i + 1) + " | " + carros.marcaCarro[i] + " " + carros.modeloCarro[i] + " - " + carros.anoFabricacao[i]);
                                 }
-                                System.out.println(" ");
 
                             } else {
-                                System.out.println("Desculpe, veículo não encontrado");
+                                System.out.println("Desculpe, veículo não encontrado.");
                                 System.out.println("Certifique-se que todas as informações referentes ao veículo estejam corretas.");
                             }
+                            
+                            System.out.println(" ");
                             break;
 
                         case 2:
